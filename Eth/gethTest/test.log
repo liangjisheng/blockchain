@@ -1,0 +1,99 @@
+INFO [05-08|19:21:41.151] Bumping default cache on mainnet         provided=1024 updated=4096
+WARN [05-08|19:21:41.151] Sanitizing cache to Go's GC limits       provided=4096 updated=2621
+INFO [05-08|19:21:41.153] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [05-08|19:21:41.170] Failed to start smart card hub, disabling: dial unix /run/pcscd/pcscd.comm: connect: no such file or directory 
+INFO [05-08|19:21:43.854] Using developer account                  address=0x3298bCE87334544A7f5a14B90413ae9DEB4B7cd0
+INFO [05-08|19:21:43.854] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-78477e41/linux-amd64/go1.12
+INFO [05-08|19:21:43.862] Allocated trie memory caches             clean=655.00MiB dirty=655.00MiB
+INFO [05-08|19:21:43.862] Allocated cache and file handles         database=/home/ljs/software/go-ethereum/build/bin/testNet/geth/chaindata cache=1310.00MiB handles=2048
+INFO [05-08|19:21:43.979] Writing custom genesis block 
+INFO [05-08|19:21:43.981] Persisted trie from memory database      nodes=12 size=1.75KiB time=290.197µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-08|19:21:43.982] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0  ConstantinopleFix: 0 Engine: clique}"
+INFO [05-08|19:21:43.982] Initialising Ethereum protocol           versions="[63 62]" network=1337 dbversion=<nil>
+WARN [05-08|19:21:43.983] Upgrade blockchain database version      from=<nil> to=6
+INFO [05-08|19:21:44.063] Loaded most recent local header          number=0 hash=850f11…e7f933 td=1 age=50y3w3d
+INFO [05-08|19:21:44.063] Loaded most recent local full block      number=0 hash=850f11…e7f933 td=1 age=50y3w3d
+INFO [05-08|19:21:44.063] Loaded most recent local fast block      number=0 hash=850f11…e7f933 td=1 age=50y3w3d
+INFO [05-08|19:21:44.063] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-08|19:21:44.064] Stored checkpoint snapshot to disk       number=0 hash=850f11…e7f933
+INFO [05-08|19:21:44.155] started whisper v.6.0 
+INFO [05-08|19:21:44.156] New local node record                    seq=1 id=d45bfff339e21e06 ip=127.0.0.1 udp=0 tcp=44077
+INFO [05-08|19:21:44.156] Started P2P networking                   self="enode://844bc9f3f3bd3000c3b98bd0de9f449b6e5ed0f4f45caa2cc52c1212ed019b0b8744a728eeaeeaca1139552b2749b88709b853ce37ef8336fe27db00f2f71427@127.0.0.1:44077?discport=0"
+INFO [05-08|19:21:44.157] IPC endpoint opened                      url=/home/ljs/software/go-ethereum/build/bin/testNet/geth.ipc
+INFO [05-08|19:21:44.157] Transaction pool price threshold updated price=1000000000
+INFO [05-08|19:21:44.158] Transaction pool price threshold updated price=1
+INFO [05-08|19:21:44.158] Etherbase automatically configured       address=0x3298bCE87334544A7f5a14B90413ae9DEB4B7cd0
+INFO [05-08|19:21:44.158] Commit new mining work                   number=1 sealhash=85a140…f4d39a uncles=0 txs=0 gas=0 fees=0 elapsed=129.573µs
+INFO [05-08|19:21:44.158] Sealing paused, waiting for transactions 
+INFO [05-08|19:27:59.857] Your new key was generated               address=0xBB02B04bf65A7A63cFfd174De349c7202Fa3ac29
+WARN [05-08|19:27:59.857] Please backup your key file!             path=/home/ljs/software/go-ethereum/build/bin/testNet/keystore/UTC--2019-05-08T11-27-58.067484731Z--bb02b04bf65a7a63cffd174de349c7202fa3ac29
+WARN [05-08|19:27:59.857] Please remember your password! 
+INFO [05-08|19:30:05.601] Setting new local account                address=0x3298bCE87334544A7f5a14B90413ae9DEB4B7cd0
+INFO [05-08|19:30:05.601] Submitted transaction                    fullhash=0x2e18aebc0208ce12a84086d8e4146955a1dcac1618c785c3782b64b6a15bc177 recipient=0xBB02B04bf65A7A63cFfd174De349c7202Fa3ac29
+INFO [05-08|19:30:05.602] Commit new mining work                   number=1 sealhash=e779c1…06dbcb uncles=0 txs=1 gas=21000 fees=2.1e-14 elapsed=781.26µs
+INFO [05-08|19:30:05.603] Successfully sealed new block            number=1 sealhash=e779c1…06dbcb hash=b64f1e…794963 elapsed=1.246ms
+INFO [05-08|19:30:05.604] 🔨 mined potential block                  number=1 hash=b64f1e…794963
+INFO [05-08|19:30:05.604] Commit new mining work                   number=2 sealhash=534f17…bdd42e uncles=0 txs=0 gas=0     fees=0       elapsed=380.618µs
+INFO [05-08|19:30:05.604] Sealing paused, waiting for transactions 
+WARN [05-08|19:45:05.716] Served eth_sendTransaction               reqid=23 t=890.883µs err="authentication needed: password or unlock"
+INFO [05-08|19:45:56.774] Setting new local account                address=0xBB02B04bf65A7A63cFfd174De349c7202Fa3ac29
+INFO [05-08|19:45:56.774] Submitted contract creation              fullhash=0x321063cd2e1f0e97ecc4653c2f247ac55ff57c544b6a3c419e1998a1340193fc contract=0xcE138B7c9A1001314c73604FE233Ec801496D267
+INFO [05-08|19:45:56.775] Commit new mining work                   number=2 sealhash=09c3b1…74f2ef uncles=0 txs=1 gas=206243 fees=2.06243e-13 elapsed=675.461µs
+INFO [05-08|19:45:56.776] Successfully sealed new block            number=2 sealhash=09c3b1…74f2ef hash=171af8…57ca61 elapsed=976.528µs
+INFO [05-08|19:45:56.776] 🔨 mined potential block                  number=2 hash=171af8…57ca61
+INFO [05-08|19:45:56.776] Commit new mining work                   number=3 sealhash=620a90…63347c uncles=0 txs=0 gas=0      fees=0           elapsed=601.818µs
+INFO [05-08|19:45:56.779] Sealing paused, waiting for transactions 
+INFO [05-08|19:45:56.779] Commit new mining work                   number=3 sealhash=620a90…63347c uncles=0 txs=0 gas=0      fees=0           elapsed=3.453ms
+WARN [05-08|19:52:02.540] Served eth_sendTransaction               reqid=763 t=694.117µs err="authentication needed: password or unlock"
+INFO [05-08|19:53:10.108] Submitted contract creation              fullhash=0xc8c34d818dabdd700e21c36b1d1c3fd618600543b19c735d17864b3d201c842c contract=0x37ff737C25535e5DBbB7dc401659E48a309f330B
+INFO [05-08|19:53:10.110] Commit new mining work                   number=3 sealhash=cae0ff…05468f uncles=0 txs=1 gas=206243 fees=2.06243e-13 elapsed=644.587µs
+INFO [05-08|19:53:10.114] Successfully sealed new block            number=3 sealhash=cae0ff…05468f hash=b9229b…261c71 elapsed=4.078ms
+INFO [05-08|19:53:10.114] 🔨 mined potential block                  number=3 hash=b9229b…261c71
+INFO [05-08|19:53:10.115] Commit new mining work                   number=4 sealhash=dfff07…5ccc0e uncles=0 txs=0 gas=0      fees=0           elapsed=456.266µs
+INFO [05-08|19:53:10.115] Sealing paused, waiting for transactions 
+INFO [05-08|20:11:34.494] IPC endpoint closed                      url=/home/ljs/software/go-ethereum/build/bin/testNet/geth.ipc
+INFO [05-08|20:11:34.494] Writing cached state to disk             block=3 hash=b9229b…261c71 root=8def88…3620fa
+INFO [05-08|20:11:34.495] Persisted trie from memory database      nodes=11 size=2.18KiB time=450.868µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=11 livesize=1.38KiB
+INFO [05-08|20:11:34.495] Writing cached state to disk             block=2 hash=171af8…57ca61 root=fbf169…99e0e7
+INFO [05-08|20:11:34.495] Persisted trie from memory database      nodes=5  size=823.00B time=213.442µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=6  livesize=591.00B
+INFO [05-08|20:11:34.496] Blockchain manager stopped 
+INFO [05-08|20:11:34.496] Stopping Ethereum protocol 
+INFO [05-08|20:11:34.496] Ethereum protocol stopped 
+INFO [05-08|20:11:34.496] Transaction pool stopped 
+INFO [05-08|20:11:34.496] whisper stopped 
+INFO [05-08|20:13:36.035] Bumping default cache on mainnet         provided=1024 updated=4096
+WARN [05-08|20:13:36.035] Sanitizing cache to Go's GC limits       provided=4096 updated=2621
+INFO [05-08|20:13:36.040] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [05-08|20:13:36.042] Failed to start smart card hub, disabling: dial unix /run/pcscd/pcscd.comm: connect: no such file or directory 
+INFO [05-08|20:13:37.040] Using developer account                  address=0x3298bCE87334544A7f5a14B90413ae9DEB4B7cd0
+INFO [05-08|20:13:37.040] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-78477e41/linux-amd64/go1.12
+INFO [05-08|20:13:37.040] Allocated trie memory caches             clean=655.00MiB dirty=655.00MiB
+INFO [05-08|20:13:37.040] Allocated cache and file handles         database=/home/ljs/software/go-ethereum/build/bin/testNet/geth/chaindata cache=1310.00MiB handles=2048
+INFO [05-08|20:13:37.205] Persisted trie from memory database      nodes=12 size=1.75KiB time=105.567µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-08|20:13:37.206] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0  ConstantinopleFix: 0 Engine: clique}"
+INFO [05-08|20:13:37.206] Initialising Ethereum protocol           versions="[63 62]" network=1337 dbversion=6
+INFO [05-08|20:13:37.315] Loaded most recent local header          number=3 hash=b9229b…261c71 td=7 age=20m27s
+INFO [05-08|20:13:37.315] Loaded most recent local full block      number=3 hash=b9229b…261c71 td=7 age=20m27s
+INFO [05-08|20:13:37.315] Loaded most recent local fast block      number=3 hash=b9229b…261c71 td=7 age=20m27s
+INFO [05-08|20:13:37.316] Loaded local transaction journal         transactions=3 dropped=3
+INFO [05-08|20:13:37.316] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [05-08|20:13:37.316] Blockchain not empty, fast sync disabled 
+INFO [05-08|20:13:37.456] started whisper v.6.0 
+INFO [05-08|20:13:37.458] New local node record                    seq=2 id=d45bfff339e21e06 ip=127.0.0.1 udp=0 tcp=35517
+INFO [05-08|20:13:37.458] Started P2P networking                   self="enode://844bc9f3f3bd3000c3b98bd0de9f449b6e5ed0f4f45caa2cc52c1212ed019b0b8744a728eeaeeaca1139552b2749b88709b853ce37ef8336fe27db00f2f71427@127.0.0.1:35517?discport=0"
+INFO [05-08|20:13:37.459] IPC endpoint opened                      url=/home/ljs/software/go-ethereum/build/bin/testNet/geth.ipc
+INFO [05-08|20:13:37.459] Transaction pool price threshold updated price=1000000000
+INFO [05-08|20:13:37.459] Transaction pool price threshold updated price=1
+INFO [05-08|20:13:37.459] Etherbase automatically configured       address=0x3298bCE87334544A7f5a14B90413ae9DEB4B7cd0
+INFO [05-08|20:13:37.462] Commit new mining work                   number=4 sealhash=55ea8d…4adca6 uncles=0 txs=0 gas=0 fees=0 elapsed=187.867µs
+INFO [05-08|20:13:37.462] Sealing paused, waiting for transactions 
+INFO [05-08|20:17:56.081] IPC endpoint closed                      url=/home/ljs/software/go-ethereum/build/bin/testNet/geth.ipc
+INFO [05-08|20:17:56.081] whisper stopped 
+INFO [05-08|20:17:56.081] Writing cached state to disk             block=3 hash=b9229b…261c71 root=8def88…3620fa
+INFO [05-08|20:17:56.081] Persisted trie from memory database      nodes=0  size=0.00B   time=11.48µs   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-08|20:17:56.082] Writing cached state to disk             block=2 hash=171af8…57ca61 root=fbf169…99e0e7
+INFO [05-08|20:17:56.082] Persisted trie from memory database      nodes=0  size=0.00B   time=7.067µs   gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-08|20:17:56.082] Blockchain manager stopped 
+INFO [05-08|20:17:56.082] Stopping Ethereum protocol 
+INFO [05-08|20:17:56.082] Ethereum protocol stopped 
+INFO [05-08|20:17:56.082] Transaction pool stopped 
