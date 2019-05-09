@@ -1,5 +1,8 @@
 pragma solidity ^0.4.0;
 
+// 地址类型 address 是一个值类型, 20 字节（一个以太坊地址的长度），地址类型
+// 也有成员，地址是所有合约的基础, balance 属性及 transfer () 函数
+
 contract AddrTest {
     event logdata(bytes data);
     function() payable {
