@@ -1,0 +1,44 @@
+=============== May 8, 2019 (CST) ===============
+19:21:43.863132 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:21:43.920537 db@open opening
+19:21:43.940741 version@stat F·[] S·0B[] Sc·[]
+19:21:43.979463 db@janitor F·2 G·0
+19:21:43.979551 db@open done T·58.932885ms
+20:11:34.496381 db@close closing
+20:11:34.496517 db@close done T·128.819µs
+=============== May 8, 2019 (CST) ===============
+20:13:37.041053 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:13:37.041208 version@stat F·[] S·0B[] Sc·[]
+20:13:37.041243 db@open opening
+20:13:37.041305 journal@recovery F·1
+20:13:37.046504 journal@recovery recovering @1
+20:13:37.078023 memdb@flush created L0@2 N·85 S·7KiB "\x03\x95\x06..\v_I,v12":"\xfb\xf1i..\x99\xe0\xe7,v85"
+20:13:37.100072 version@stat F·[1] S·7KiB[7KiB] Sc·[0.25]
+20:13:37.204129 db@janitor F·3 G·0
+20:13:37.204172 db@open done T·162.91027ms
+20:17:56.082332 db@close closing
+20:17:56.082468 db@close done T·133.544µs
+=============== May 10, 2019 (CST) ===============
+14:34:22.703621 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:34:22.703851 version@stat F·[1] S·7KiB[7KiB] Sc·[0.25]
+14:34:22.703901 db@open opening
+14:34:22.703981 journal@recovery F·1
+14:34:22.708461 journal@recovery recovering @3
+14:34:22.741052 memdb@flush created L0@5 N·2 S·422B "Las..der,v88":"eth..\xe7\xf93,v87"
+14:34:22.760812 version@stat F·[2] S·7KiB[7KiB] Sc·[0.50]
+14:34:22.858699 db@janitor F·4 G·0
+14:34:22.858741 db@open done T·154.819065ms
+14:37:06.044424 db@close closing
+14:37:06.044653 db@close done T·224.33µs
+=============== May 10, 2019 (CST) ===============
+14:37:10.021307 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:37:10.021743 version@stat F·[2] S·7KiB[7KiB] Sc·[0.50]
+14:37:10.021830 db@open opening
+14:37:10.022031 journal@recovery F·1
+14:37:10.028499 journal@recovery recovering @6
+14:37:10.073246 memdb@flush created L0@8 N·2 S·422B "Las..der,v91":"eth..\xe7\xf93,v90"
+14:37:10.094545 version@stat F·[3] S·7KiB[7KiB] Sc·[0.75]
+14:37:10.191091 db@janitor F·5 G·0
+14:37:10.191141 db@open done T·169.267301ms
+15:57:19.957310 db@close closing
+15:57:19.957479 db@close done T·164.2µs

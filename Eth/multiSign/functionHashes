@@ -1,0 +1,10 @@
+{
+	"2d06177a": "addManager(address)",
+	"fcf45c0f": "deleteTransactions(uint256)",
+	"d11db83f": "getPendingTransactions()",
+	"ac18de43": "removeManager(address)",
+	"5d9ec210": "signTransaction(uint256)",
+	"2ccb1b30": "transferTo(address,uint256)",
+	"cd0a314b": "walletBalance()",
+	"2e1a7d4d": "withdraw(uint256)"
+}
