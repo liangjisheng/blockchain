@@ -6,3 +6,4 @@
 *.dylib
 *.a
 *.o
+Eth/web3/node_modules
