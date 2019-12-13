@@ -1,6 +1,9 @@
+# PBFD
+
 >参考资料：
+> - https://www.cnblogs.com/davidwang456/articles/9001331.html
 > - https://www.jianshu.com/p/fb5edf031afd
-> -  https://www.cnblogs.com/gexin/p/10242161.html
+> - https://www.cnblogs.com/gexin/p/10242161.html
 
 <br>
 
@@ -8,7 +11,6 @@
 
 本demo为pbft共识算法的代码实现，如果想了解pbft的详细信息请自行浏览参考资料\
 本demo展示了pbft的部分功能（没有写主节点轮循机制），写的并不严谨，仅作为对pbft的了解用途
-
 
 <br>
 
