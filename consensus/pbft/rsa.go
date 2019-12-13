@@ -94,7 +94,7 @@ func isExist(path string) bool {
 }
 
 // RsaSignWithSha256 数字签名
-func (p *pbft) RsaSignWithSha256(data []byte, keyBytes []byte) []byte {
+func (p *PBFT) RsaSignWithSha256(data []byte, keyBytes []byte) []byte {
 	h := sha256.New()
 	h.Write(data)
 	hashed := h.Sum(nil)
@@ -118,7 +118,7 @@ func (p *pbft) RsaSignWithSha256(data []byte, keyBytes []byte) []byte {
 }
 
 // RsaVerySignWithSha256 签名验证
-func (p *pbft) RsaVerySignWithSha256(data, signData, keyBytes []byte) bool {
+func (p *PBFT) RsaVerySignWithSha256(data, signData, keyBytes []byte) bool {
 	block, _ := pem.Decode(keyBytes)
 	if block == nil {
 		panic(errors.New("public key error"))
