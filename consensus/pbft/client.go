@@ -18,7 +18,7 @@ func clientSendMessageAndListen() {
 	fmt.Printf("客户端开启监听，地址：%s\n", clientAddr)
 
 	fmt.Println(" ---------------------------------------------------------------------------------")
-	fmt.Println("|  已进入PBFT测试Demo客户端，请启动全部节点后再发送消息！:)  |")
+	fmt.Println("|  已进入PBFT测试Demo客户端，请启动全部节点后再发送消息:)  |")
 	fmt.Println(" ---------------------------------------------------------------------------------")
 	fmt.Println("请在下方输入要存入节点的信息：")
 	// 首先通过命令行获取用户输入
@@ -41,7 +41,7 @@ func clientSendMessageAndListen() {
 		}
 		fmt.Println(string(br))
 		content := jointMessage(cRequest, br)
-		// 默认N0为主节点，直接把请求信息发送至N0
+		// 默认N0为主节点 直接把请求信息发送至N0
 		tcpDial(content, nodeTable["N0"])
 	}
 }

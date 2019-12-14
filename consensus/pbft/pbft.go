@@ -104,7 +104,7 @@ func (p *PBFT) handlePrePrepare(content []byte) {
 	if err != nil {
 		log.Panic(err)
 	}
-	//获取主节点的公钥，用于数字签名验证
+	// 获取主节点的公钥，用于数字签名验证
 	primaryNodePubKey := p.getPubKey("N0")
 	digestByte, _ := hex.DecodeString(pp.Digest)
 	if digest := getDigest(pp.RequestMessage); digest != pp.Digest {
@@ -167,7 +167,6 @@ func (p *PBFT) handlePrepare(content []byte) {
 		}
 		// 如果节点至少收到了2f个prepare的消息(包括自己),并且没有进行过commit广播,则进行commit广播
 		p.lock.Lock()
-		// 获取消息源节点的公钥 用于数字签名验证
 		if count >= specifiedCount && !p.isCommitBordcast[pre.Digest] {
 			fmt.Println("本节点已收到至少2f个节点(包括本地节点)发来的Prepare信息 ...")
 			// 节点使用私钥对其签名
@@ -211,13 +210,14 @@ func (p *PBFT) handleCommit(content []byte) {
 		for range p.commitConfirmCount[c.Digest] {
 			count++
 		}
-		// 如果节点至少收到了2f+1个commit消息(包括自己),并且节点没有回复过,并且已进行过commit广播，则提交信息至本地消息池，并reply成功标志至客户端！
+		// 如果节点至少收到了2f+1个commit消息(包括自己),并且节点没有回复过,并且已进行过 commit 广播
+		// 则提交信息至本地消息池 并reply成功标志至客户端
 		p.lock.Lock()
 		if count >= nodeCount/3*2 && !p.isReply[c.Digest] && p.isCommitBordcast[c.Digest] {
 			fmt.Println("本节点已收到至少2f + 1 个节点(包括本地节点)发来的Commit信息 ...")
-			// 将消息信息，提交到本地消息池中
+			// 将消息信息 提交到本地消息池中
 			localMessagePool = append(localMessagePool, p.messagePool[c.Digest].Message)
-			info := p.node.nodeID + "节点已将msgid:" + strconv.Itoa(p.messagePool[c.Digest].ID) + "存入本地消息池中,消息内容为：" + p.messagePool[c.Digest].Content
+			info := p.node.nodeID + "节点已将msgid:" + strconv.Itoa(p.messagePool[c.Digest].ID) + "存入本地消息池中,消息内容为:" + p.messagePool[c.Digest].Content
 			fmt.Println(info)
 			fmt.Println("正在reply客户端 ...")
 			tcpDial([]byte(info), p.messagePool[c.Digest].ClientAddr)
