@@ -1,6 +1,6 @@
-## 用Go来做以太坊开发
+# 用Go来做以太坊开发
 
-### 在线电子书
+## 在线电子书
 
 [https://goethereumbook.org/zh/](https://goethereumbook.org/zh/)
 
