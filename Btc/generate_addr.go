@@ -10,7 +10,6 @@ import (
 )
 
 // 生成比特币1开头的公私钥地址
-
 func main() {
 	curve := btcec.S256()
 	privkey, err := btcec.NewPrivateKey(curve)
