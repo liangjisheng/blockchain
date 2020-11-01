@@ -7,4 +7,5 @@
 [article](https://blog.csdn.net/shangsongwww/article/details/89486686)
 [article](https://blog.csdn.net/BitTribeLab/article/details/102934972)
 [article](https://zhuanlan.zhihu.com/p/136015449)
+[article](https://blog.csdn.net/inthat/article/details/106522972)
 [github](https://github.com/yunfeiyanggzq/bls_golang_lib)
