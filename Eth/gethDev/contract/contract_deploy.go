@@ -1,7 +1,7 @@
 package main
 
 import (
-	"blockchain/Eth/gethDev/contract/store"
+	"contract/store"
 	"context"
 	"crypto/ecdsa"
 	"fmt"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"blockchain/Eth/gethDev/ERC20Token/token"
+	"erc20/token"
 	"fmt"
 	"log"
 	"math"

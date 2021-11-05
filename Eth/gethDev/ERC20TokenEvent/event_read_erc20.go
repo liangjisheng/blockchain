@@ -1,8 +1,8 @@
 package main
 
 import (
-	"blockchain/Eth/gethDev/ERC20TokenEvent/token"
 	"context"
+	"erc20event/token"
 	"fmt"
 	"log"
 	"math/big"
@@ -77,7 +77,8 @@ func eventReadErc20() {
 			fmt.Printf("Log Name: Transfer\n")
 
 			var transferEvent LogTransfer
-			err := contractAbi.Unpack(&transferEvent, "Transfer", vLog.Data)
+			//_, err := contractAbi.Unpack(&transferEvent, "Transfer", vLog.Data)
+			_, err := contractAbi.Unpack("Transfer", vLog.Data)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -93,7 +94,8 @@ func eventReadErc20() {
 			fmt.Printf("Log Name: Approval\n")
 
 			var approvalEvent LogApproval
-			err := contractAbi.Unpack(&approvalEvent, "Approval", vLog.Data)
+			//_, err := contractAbi.Unpack(&approvalEvent, "Approval", vLog.Data)
+			_, err := contractAbi.Unpack("Approval", vLog.Data)
 			if err != nil {
 				log.Fatal(err)
 			}

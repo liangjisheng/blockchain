@@ -8,5 +8,6 @@ func main() {
 	// generateWallet()
 	// createKs()
 	// importKs()
-	addressCheck()
+	//addressCheck()
+	mnemonic()
 }
