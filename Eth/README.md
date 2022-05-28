@@ -18,3 +18,15 @@ go install github.com/ethereum/go-ethereum/cmd/abigen
 ```shell
 abigen --abi token.abi --pkg main --type Token --out token.go
 ```
+
+[eip1559](https://metamask.io/1559/)
+
+eth api
+
+[api](https://eth.wiki/json-rpc/API)
+[api](http://cw.hubwiz.com/card/c/ethereum-json-rpc-api/)
+[api](https://learnblockchain.cn/docs/etherscan/index.html)
+
+etherscan api
+
+[docs](https://docs.etherscan.io/)
